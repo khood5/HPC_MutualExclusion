@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/Packet.hpp
+stdio.h
+-
+string
+-
+ctime
+-
+random
+-
+
+/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/Peer.hpp
+stdio.h
+-
+vector
+-
+map
+-
+deque
+-
+string
+-
+iostream
+-
+iomanip
+-
+algorithm
+-
+Packet.hpp
+/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/Packet.hpp
+
+/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/main.cpp
+iostream
+-
+Packet.hpp
+/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/Packet.hpp
+Peer.hpp
+/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/Peer.hpp
+
