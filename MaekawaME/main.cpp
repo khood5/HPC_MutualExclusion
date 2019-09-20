@@ -10,8 +10,8 @@ int main() {
             << "P2, P3" << std::endl;
 
     MaekawePeer P1("P1");
-    MaekawePeer P2("P1");
-    MaekawePeer P3("P1");
+    MaekawePeer P2("P2");
+    MaekawePeer P3("P3");
 
 
     P1.addNeighbor(P2,1);
@@ -23,8 +23,19 @@ int main() {
     P3.addNeighbor(P1,1);
     P3.addNeighbor(P2,1);
 
-    P1.makeRequest();
-    for(int rounds = 0; rounds < 10; rounds++){
+    MaekawePeer *requester = &P1;
+    for(int rounds = 0; rounds < 1000; rounds++){
+        if(rounds%2 == 0) {
+            requester->makeRequest();
+            if (*requester == P1) {
+                requester = &P2;
+            } else if (*requester == P2) {
+                requester = &P3;
+            } else {
+                requester = &P1;
+            }
+        }
+
         P1.receive();
         P2.receive();
         P3.receive();

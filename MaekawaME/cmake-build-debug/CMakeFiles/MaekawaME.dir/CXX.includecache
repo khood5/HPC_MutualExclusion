@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/MaekawePeer.h
+Peer.hpp
+/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/Peer.hpp
+Packet.hpp
+/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/Packet.hpp
+queue
+-
+string
+-
+assert.h
+-
+
 /home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/Packet.hpp
 stdio.h
 -
@@ -39,8 +51,6 @@ Packet.hpp
 /home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/main.cpp
 iostream
 -
-Packet.hpp
-/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/Packet.hpp
-Peer.hpp
-/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/Peer.hpp
+MaekawePeer.h
+/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/MaekawePeer.h
 

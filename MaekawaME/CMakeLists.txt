@@ -3,4 +3,4 @@ project(MaekawaME)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(MaekawaME main.cpp MaekawePeer.cpp MaekawePeer.h)
+add_executable(MaekawaME main.cpp MaekawePeer.cpp MaekawePeer.h Peer.hpp Packet.hpp)

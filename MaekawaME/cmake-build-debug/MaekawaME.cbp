@@ -90,6 +90,12 @@
 		<Unit filename="/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/MaekawePeer.h">
 			<Option target="MaekawaME"/>
 		</Unit>
+		<Unit filename="/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/Packet.hpp">
+			<Option target="MaekawaME"/>
+		</Unit>
+		<Unit filename="/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/Peer.hpp">
+			<Option target="MaekawaME"/>
+		</Unit>
 		<Unit filename="/home/khood/Documents/HPC/HPC_MutualExclusion/MaekawaME/main.cpp">
 			<Option target="MaekawaME"/>
 		</Unit>
