@@ -1,3 +1,11 @@
+//
+//  main.cpp
+//  HPC HW 2 pt 1
+//
+//  Created by Kendric Hood on 9/19/19.
+//  Copyright © 2019 Kent State University. All rights reserved.
+//
+
 #include <iostream>
 #include "MaekawePeer.h"
 
